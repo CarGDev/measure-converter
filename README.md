@@ -84,6 +84,7 @@ flutter pub get
 
 ```bash
 # iOS Simulator (macOS)
+cd ios && pod install && cd ../
 flutter run -d "iPhone 16 Plus"
 
 # Android Emulator
@@ -150,6 +151,9 @@ flutter test --coverage
 
 **Detailed Test Results:**
 For complete test execution details, performance metrics, and verbose output, see: [`test-results-verbose.md`](test-results-verbose.md)
+
+**Deployment Logs:**
+For detailed build and deployment logs showing successful cross-platform deployment, see: [`deployment-logs.md`](deployment-logs.md)
 
 ### Testing Commands
 
